@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>AI Algeria</title>
+  <title>Algerian AI Summit</title>
   <link rel="icon" href="assets/img/newimage/AI-Logo.png" type="image/png">
   <!-- Bootstrap CSS -->
   <!-- Icon -->
@@ -20,6 +20,93 @@
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    /* Media query for responsiveness */
+    @media screen and (max-width: 768px) {
+      .carousel-caption.description {
+        position: relative;
+        /* Change position to relative for responsiveness */
+        margin-bottom: 0;
+        /* Reset margin if necessary */
+        text-align: center;
+        /* Center-align content */
+      }
+
+      .carousel-caption.description h1 {
+        font-size: 24px !important;
+        /* Adjust font size for smaller screens */
+      }
+
+      .carousel-caption.description h2 {
+        font-size: 20px !important;
+        /* Adjust font size for smaller screens */
+      }
+
+      .carousel-caption.description p {
+        font-size: 10px !important;
+        /* Adjust font size for smaller screens */
+      }
+    }
+
+    @media screen and (max-width: 450px) {
+      .carousel-caption.description {
+        margin-bottom: -05%;
+        position: absolute;
+        left: 47%;
+        width: 100%;
+        top: auto;
+      }
+
+      .carousel-caption.description h1 {
+        /* Adjust font size for smaller screens */
+      }
+
+      .carousel-caption.description h2 {
+        /* Adjust font size for smaller screens */
+      }
+
+      .carousel-caption.description p {
+        font-size: 10px !important;
+        /* Adjust font size for smaller screens */
+      }
+
+      .divanimation {
+        margin-bottom: 50%;
+        position: absolute;
+        visibility: hidden;
+        left: 10%;
+        top: 30%;
+      }
+
+      .divanimation h1 {
+        font-size: 24px !important;
+        /* Adjust font size for smaller screens */
+      }
+
+      .divanimation h2 {
+        font-size: 20px !important;
+        /* Adjust font size for smaller screens */
+      }
+
+      .animethre {
+        margin-bottom: 50%;
+        position: absolute;
+        visibility: hidden;
+        left: 10%;
+        top: 30%;
+      }
+
+      .animethre h1 {
+        font-size: 24px !important;
+        /* Adjust font size for smaller screens */
+      }
+
+      .animethre h2 {
+        font-size: 20px !important;
+        /* Adjust font size for smaller screens */
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -29,12 +116,11 @@
     <nav class="navbar navbar-expand-lg bg-inverse fixed-top scrolling-navbar">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="res">
+        <div class="res" style="display: flex;justify-content: space-between;align-items: center;">
           <a href="index.html" class="navbar-brand"><img src="assets/img/newimage/AI-Logo.png" alt=""
               style="height: 10%;width:10%"></a>
-          <button class="navbar-toggler" style="margin-left:200px" type="button" data-toggle="collapse"
-            data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-            aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
           </button>
         </div>
@@ -94,8 +180,9 @@
           <img src="./assets/img/newimage/2.jpg" class="d-block w-100 rounded" alt="Legend of AI">
 
           <div class="row align-items-center">
-            <div style="position: absolute; top: 20%;">
-              <div class="text-center avatar-pic" style="visibility: hidden;">
+            <div style="position: absolute; top: 16.5%;">
+              <div class="text-center avatar-pic" style="visibility: hidden;"
+                class="justify-content-lg-center justify-content-xl-center d-flex">
                 <img src="./assets/avatar/Yacine Oualid.jpg" class="rounded-circle"
                   style="width:20%; position:relative; left:-15%" alt="Circle Image">
                 <img src="./assets/avatar/kamel-bedari-.png" class="rounded-circle"
@@ -103,13 +190,10 @@
               </div>
             </div>
           </div>
-          <div class="carousel-caption" style="margin-bottom:-05%;position:absolute; " id="popupContainer">
+          <div class="carousel-caption description" style="margin-bottom:-05%;position:absolute;" id="popupContainer">
             <h1>14-16 May, 2024</h1>
             <h2 style="font-size: 40px;">AI and University</h2>
-            <p class="fs-5" style="color:#fff;">
-              Artificial Intelligence (AI) has the potential to revolutionize the field of education in numerous ways.
-              Here are some key areas where.
-            </p>
+
           </div>
         </div>
         <div class="carousel-item ">
@@ -129,10 +213,7 @@
             style="margin-bottom:25%;position:absolute;visibility:hidden; ">
             <h1 class="">14-16 May, 2024</h1>
             <h2 style="font-size: 30px;">AI and LLMs</h2>
-            <p class="fs-5" style="color:#fff;margin-left: 28%;width:40%;">
-              Artificial Intelligence (AI) has the potential to revolutionize the field of education in numerous ways.
-              Here are some key areas where.
-            </p>
+
           </div>
         </div>
         <div class="carousel-item ">
@@ -140,7 +221,7 @@
           <div class="row align-items-center ">
             <div style="position: absolute; top: 20%;">
               <div class="text-center avatar-pic" style="visibility: hidden;">
-                <img src="./assets/avatar/Mohamed Lachemi.jpg" class="rounded-circle"
+                <img src="./assets/avatar/Mohamed Lachemi.jpg" class="rounded-circle "
                   style="width:20%; position:relative; left:-15%" alt="Circle Image">
                 <img src="./assets/avatar/RACHID BENLAMRI.jpg" class="rounded-circle"
                   style="width: 20%; position:relative; left:15%" alt="Circle Image">
@@ -150,11 +231,7 @@
           <div class="carousel-caption animethre" style="margin-bottom:25%;position:absolute;visibility: hidden;">
             <h1>14-16 May, 2024</h1>
             <h2 style="font-size: 30px;">AI and Busines</h2>
-            <p class="fs-5" style="color:#fff;margin-left: 28%;width:40%;">
-              Artificial Intelligence (AI) has the potential to revolutionize the
-              field of education in numerous ways.
-              Here are some key areas where.
-            </p>
+
           </div>
         </div>
 

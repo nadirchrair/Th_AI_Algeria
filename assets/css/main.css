@@ -2505,6 +2505,9 @@ footer {
   opacity: 1;
 }
 
+.avatar-pic {
+  margin-top: 10%;
+}
 
 .active .avatar-pic {
   visibility: visible !important;
