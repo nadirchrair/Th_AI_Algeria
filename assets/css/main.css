@@ -2591,3 +2591,11 @@ footer {
 .stylist {
   margin-left: 200px;
 }
+
+.images-box .img-fluid {
+  border: 3px solid #000;
+}
+
+.aaa {
+  font-size: 20px !important;
+}
