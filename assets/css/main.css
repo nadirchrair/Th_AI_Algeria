@@ -2599,3 +2599,9 @@ footer {
 .aaa {
   font-size: 16px !important;
 }
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 4rem !important;
+  height: 4rem !important;
+}
